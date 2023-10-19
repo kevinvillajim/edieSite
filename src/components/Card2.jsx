@@ -3,7 +3,7 @@ const Card2 = ({ img2, subTitle, title2, type2 }) => {
   return (
     <div className={`card-container2 ${type2}`}>
       <div id="img-container">
-        <img className="img-container" src={`/${img2}.png`}></img>
+        <img className="img-container" src={img2}></img>
       </div>
       <div className="subtitle-container">
         <span>{subTitle}</span>

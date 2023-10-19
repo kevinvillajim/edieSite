@@ -35,7 +35,7 @@ function App() {
           <div id="container1">
             <img
               id="main-banner"
-              src="/public/heroImage.jpg"
+              src="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/heroImage.jpg"
               alt="main-banner"
             />
           </div>
@@ -96,25 +96,25 @@ function App() {
               <span id="subtitle3">Good design means good business</span>
               <div id="container-cards2">
                 <Card2
-                  img2="smarthome"
+                  img2="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/smarthome.png"
                   subTitle="Full stack application"
                   title2="Smart home dashboard"
                   type2="down"
                 />
                 <Card2
-                  img2="onboard"
+                  img2="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/onboard.png"
                   subTitle="UX/UI design"
                   title2="Onboard application"
                   type2="up"
                 />
                 <Card2
-                  img2="booking"
+                  img2="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/booking.png"
                   subTitle="Mobile application"
                   title2="Booking system"
                   type2="down"
                 />
                 <Card2
-                  img2="juice-product"
+                  img2="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/juice-product.png"
                   subTitle="Front End application"
                   title2="Juice product homepage"
                   type2="up"
@@ -134,9 +134,18 @@ function App() {
               </div>
               <div id="team-img-container">
                 {/* <div id="left"></div> */}
-                <img className="team-img" src="/public/person1.png" />
-                <img className="team-img" src="/public/person2.png" />
-                <img className="team-img" src="/public/person3.png" />
+                <img
+                  className="team-img"
+                  src="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person1.png"
+                />
+                <img
+                  className="team-img"
+                  src="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person2.png"
+                />
+                <img
+                  className="team-img"
+                  src="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person3.png"
+                />
               </div>
             </div>
             <div id="testimonies-container">
@@ -148,7 +157,10 @@ function App() {
               </div>
               <div id="person">
                 <div>
-                  <img id="person-img" src="/public/person4.png" />
+                  <img
+                    id="person-img"
+                    src="https://raw.githubusercontent.com/kevinvillajim/edieSite/main/public/person4.png"
+                  />
                 </div>
                 <div id="person-text">
                   <span id="name">Carlos Tran</span>
@@ -169,9 +181,15 @@ function App() {
           <div id="footer2">
             <div id="footer-logo">Edie</div>
             <div id="social-media">
-              <img className="social" src="/public/instagram.svg"></img>
-              <img className="social" src="/public/linkedin.svg"></img>
-              <img src="/public/twitter.svg"></img>
+              <img
+                className="social"
+                src="https://raw.githubusercontent.com/kevinvillajim/edieSite/36d4bb00316e69cd07535d26506c963161281c19/public/instagram.svg"
+              ></img>
+              <img
+                className="social"
+                src="https://raw.githubusercontent.com/kevinvillajim/edieSite/36d4bb00316e69cd07535d26506c963161281c19/public/linkedin.svg"
+              ></img>
+              <img src="https://raw.githubusercontent.com/kevinvillajim/edieSite/36d4bb00316e69cd07535d26506c963161281c19/public/twitter.svg"></img>
             </div>
           </div>
           <div id="footer3">
