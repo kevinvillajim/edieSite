@@ -33,7 +33,11 @@ function App() {
             </div>
           </div>
           <div id="container1">
-            <img id="main-banner" src="/heroImage.jpg" alt="main-banner" />
+            <img
+              id="main-banner"
+              src="/public/heroImage.jpg"
+              alt="main-banner"
+            />
           </div>
           <div id="container2">
             <div id="subtitle">
@@ -130,9 +134,9 @@ function App() {
               </div>
               <div id="team-img-container">
                 {/* <div id="left"></div> */}
-                <img className="team-img" src="/person1.png" />
-                <img className="team-img" src="/person2.png" />
-                <img className="team-img" src="/person3.png" />
+                <img className="team-img" src="/public/person1.png" />
+                <img className="team-img" src="/public/person2.png" />
+                <img className="team-img" src="/public/person3.png" />
               </div>
             </div>
             <div id="testimonies-container">
@@ -144,7 +148,7 @@ function App() {
               </div>
               <div id="person">
                 <div>
-                  <img id="person-img" src="/person4.png" />
+                  <img id="person-img" src="/public/person4.png" />
                 </div>
                 <div id="person-text">
                   <span id="name">Carlos Tran</span>
